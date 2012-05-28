@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62232DC1573CAF300780A85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62232DB1573CAF300780A85 /* UIKit.framework */; };
+		C62232DE1573CAF300780A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62232DD1573CAF300780A85 /* Foundation.framework */; };
+		C62232E01573CAF300780A85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62232DF1573CAF300780A85 /* CoreGraphics.framework */; };
+		C62232E61573CAF300780A85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C62232E41573CAF300780A85 /* InfoPlist.strings */; };
+		C62232E81573CAF300780A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232E71573CAF300780A85 /* main.m */; };
+		C62232EC1573CAF300780A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232EB1573CAF300780A85 /* AppDelegate.m */; };
+		C62232EF1573CAF300780A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232EE1573CAF300780A85 /* ViewController.m */; };
+		C62232F21573CAF300780A85 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C62232F01573CAF300780A85 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C62232D71573CAF300780A85 /* SmartTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62232DB1573CAF300780A85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C62232DD1573CAF300780A85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C62232DF1573CAF300780A85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C62232E31573CAF300780A85 /* SmartTables-Info.plist */ = {isa = PBXFileReference; path = "SmartTables-Info.plist"; sourceTree = "<group>"; };
+		C62232E51573CAF300780A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C62232E71573CAF300780A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C62232E91573CAF300780A85 /* SmartTables-Prefix.pch */ = {isa = PBXFileReference; path = "SmartTables-Prefix.pch"; sourceTree = "<group>"; };
+		C62232EA1573CAF300780A85 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C62232EB1573CAF300780A85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C62232ED1573CAF300780A85 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C62232EE1573CAF300780A85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C62232F11573CAF300780A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62232D41573CAF300780A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62232DC1573CAF300780A85 /* UIKit.framework in Frameworks */,
+				C62232DE1573CAF300780A85 /* Foundation.framework in Frameworks */,
+				C62232E01573CAF300780A85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C62232CC1573CAF200780A85 = {
+			isa = PBXGroup;
+			children = (
+				C62232E11573CAF300780A85 /* SmartTables */,
+				C62232DA1573CAF300780A85 /* Frameworks */,
+				C62232D81573CAF300780A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C62232D81573CAF300780A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62232D71573CAF300780A85 /* SmartTables.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62232DA1573CAF300780A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C62232DB1573CAF300780A85 /* UIKit.framework */,
+				C62232DD1573CAF300780A85 /* Foundation.framework */,
+				C62232DF1573CAF300780A85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62232E11573CAF300780A85 /* SmartTables */ = {
+			isa = PBXGroup;
+			children = (
+				C62232EA1573CAF300780A85 /* AppDelegate.h */,
+				C62232EB1573CAF300780A85 /* AppDelegate.m */,
+				C62232ED1573CAF300780A85 /* ViewController.h */,
+				C62232EE1573CAF300780A85 /* ViewController.m */,
+				C62232F01573CAF300780A85 /* ViewController.xib */,
+				C62232E21573CAF300780A85 /* Supporting Files */,
+			);
+			path = SmartTables;
+			sourceTree = "<group>";
+		};
+		C62232E21573CAF300780A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C62232E31573CAF300780A85 /* SmartTables-Info.plist */,
+				C62232E41573CAF300780A85 /* InfoPlist.strings */,
+				C62232E71573CAF300780A85 /* main.m */,
+				C62232E91573CAF300780A85 /* SmartTables-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C62232D61573CAF300780A85 /* SmartTables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62232F51573CAF300780A85 /* Build configuration list for PBXNativeTarget "SmartTables" */;
+			buildPhases = (
+				C62232D31573CAF300780A85 /* Sources */,
+				C62232D41573CAF300780A85 /* Frameworks */,
+				C62232D51573CAF300780A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTables;
+			productName = SmartTables;
+			productReference = C62232D71573CAF300780A85 /* SmartTables.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62232CE1573CAF200780A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Yota Labs LLC, Russia";
+			};
+			buildConfigurationList = C62232D11573CAF200780A85 /* Build configuration list for PBXProject "SmartTables" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C62232CC1573CAF200780A85;
+			productRefGroup = C62232D81573CAF300780A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62232D61573CAF300780A85 /* SmartTables */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62232D51573CAF300780A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62232E61573CAF300780A85 /* InfoPlist.strings in Resources */,
+				C62232F21573CAF300780A85 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62232D31573CAF300780A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62232E81573CAF300780A85 /* main.m in Sources */,
+				C62232EC1573CAF300780A85 /* AppDelegate.m in Sources */,
+				C62232EF1573CAF300780A85 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C62232E41573CAF300780A85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62232E51573CAF300780A85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C62232F01573CAF300780A85 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62232F11573CAF300780A85 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62232F31573CAF300780A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C62232F41573CAF300780A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C62232F61573CAF300780A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTables/SmartTables-Prefix.pch";
+				INFOPLIST_FILE = "SmartTables/SmartTables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C62232F71573CAF300780A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTables/SmartTables-Prefix.pch";
+				INFOPLIST_FILE = "SmartTables/SmartTables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62232D11573CAF200780A85 /* Build configuration list for PBXProject "SmartTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62232F31573CAF300780A85 /* Debug */,
+				C62232F41573CAF300780A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62232F51573CAF300780A85 /* Build configuration list for PBXNativeTarget "SmartTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62232F61573CAF300780A85 /* Debug */,
+				C62232F71573CAF300780A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62232CE1573CAF200780A85 /* Project object */;
+}
