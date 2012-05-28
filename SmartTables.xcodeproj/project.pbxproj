@@ -15,6 +15,16 @@
 		C62232EC1573CAF300780A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232EB1573CAF300780A85 /* AppDelegate.m */; };
 		C62232EF1573CAF300780A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232EE1573CAF300780A85 /* ViewController.m */; };
 		C62232F21573CAF300780A85 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C62232F01573CAF300780A85 /* ViewController.xib */; };
+		C62232FE1573CB5700780A85 /* SmartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232FD1573CB5700780A85 /* SmartTableViewController.m */; };
+		C62233011573CB6B00780A85 /* TableSectionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233001573CB6B00780A85 /* TableSectionContainer.m */; };
+		C62233041573CB7D00780A85 /* AbstractSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233031573CB7D00780A85 /* AbstractSmartTableViewCell.m */; };
+		C62233071573CB8C00780A85 /* PushTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233061573CB8C00780A85 /* PushTableViewCell.m */; };
+		C622330C1573CBB100780A85 /* EditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C622330A1573CBB100780A85 /* EditTableViewCell.m */; };
+		C622330D1573CBB100780A85 /* FlexibleEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C622330B1573CBB100780A85 /* FlexibleEditTableViewCell.m */; };
+		C62233101573CBC400780A85 /* CheckTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C622330E1573CBC400780A85 /* CheckTableViewCell.m */; };
+		C62233131573CC0000780A85 /* SwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233111573CC0000780A85 /* SwitchTableViewCell.m */; };
+		C62233161573CC1A00780A85 /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233141573CC1A00780A85 /* TextTableViewCell.m */; };
+		C622331E1573CC8600780A85 /* AbstractStateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C622331C1573CC8600780A85 /* AbstractStateTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +32,35 @@
 		C62232DB1573CAF300780A85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C62232DD1573CAF300780A85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C62232DF1573CAF300780A85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C62232E31573CAF300780A85 /* SmartTables-Info.plist */ = {isa = PBXFileReference; path = "SmartTables-Info.plist"; sourceTree = "<group>"; };
+		C62232E31573CAF300780A85 /* SmartTables-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartTables-Info.plist"; sourceTree = "<group>"; };
 		C62232E51573CAF300780A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C62232E71573CAF300780A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C62232E91573CAF300780A85 /* SmartTables-Prefix.pch */ = {isa = PBXFileReference; path = "SmartTables-Prefix.pch"; sourceTree = "<group>"; };
-		C62232EA1573CAF300780A85 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C62232E91573CAF300780A85 /* SmartTables-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartTables-Prefix.pch"; sourceTree = "<group>"; };
+		C62232EA1573CAF300780A85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C62232EB1573CAF300780A85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C62232ED1573CAF300780A85 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C62232ED1573CAF300780A85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C62232EE1573CAF300780A85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C62232F11573CAF300780A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C62232FC1573CB5700780A85 /* SmartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartTableViewController.h; sourceTree = "<group>"; };
+		C62232FD1573CB5700780A85 /* SmartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartTableViewController.m; sourceTree = "<group>"; };
+		C62232FF1573CB6B00780A85 /* TableSectionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSectionContainer.h; sourceTree = "<group>"; };
+		C62233001573CB6B00780A85 /* TableSectionContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSectionContainer.m; sourceTree = "<group>"; };
+		C62233021573CB7D00780A85 /* AbstractSmartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractSmartTableViewCell.h; sourceTree = "<group>"; };
+		C62233031573CB7D00780A85 /* AbstractSmartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractSmartTableViewCell.m; sourceTree = "<group>"; };
+		C62233051573CB8C00780A85 /* PushTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTableViewCell.h; sourceTree = "<group>"; };
+		C62233061573CB8C00780A85 /* PushTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTableViewCell.m; sourceTree = "<group>"; };
+		C62233081573CBB100780A85 /* EditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTableViewCell.h; sourceTree = "<group>"; };
+		C62233091573CBB100780A85 /* FlexibleEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleEditTableViewCell.h; sourceTree = "<group>"; };
+		C622330A1573CBB100780A85 /* EditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTableViewCell.m; sourceTree = "<group>"; };
+		C622330B1573CBB100780A85 /* FlexibleEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexibleEditTableViewCell.m; sourceTree = "<group>"; };
+		C622330E1573CBC400780A85 /* CheckTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTableViewCell.m; sourceTree = "<group>"; };
+		C622330F1573CBC400780A85 /* CheckTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTableViewCell.h; sourceTree = "<group>"; };
+		C62233111573CC0000780A85 /* SwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTableViewCell.m; sourceTree = "<group>"; };
+		C62233121573CC0000780A85 /* SwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTableViewCell.h; sourceTree = "<group>"; };
+		C62233141573CC1A00780A85 /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		C62233151573CC1A00780A85 /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
+		C622331C1573CC8600780A85 /* AbstractStateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractStateTableViewCell.m; sourceTree = "<group>"; };
+		C622331D1573CC8600780A85 /* AbstractStateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractStateTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +107,8 @@
 		C62232E11573CAF300780A85 /* SmartTables */ = {
 			isa = PBXGroup;
 			children = (
+				C622331F1573CF8700780A85 /* Sample Model */,
+				C62232F81573CB0100780A85 /* SmartTableViewController */,
 				C62232EA1573CAF300780A85 /* AppDelegate.h */,
 				C62232EB1573CAF300780A85 /* AppDelegate.m */,
 				C62232ED1573CAF300780A85 /* ViewController.h */,
@@ -96,6 +128,80 @@
 				C62232E91573CAF300780A85 /* SmartTables-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C62232F81573CB0100780A85 /* SmartTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C62233171573CC2000780A85 /* Cells */,
+				C62232FF1573CB6B00780A85 /* TableSectionContainer.h */,
+				C62233001573CB6B00780A85 /* TableSectionContainer.m */,
+				C62232FC1573CB5700780A85 /* SmartTableViewController.h */,
+				C62232FD1573CB5700780A85 /* SmartTableViewController.m */,
+			);
+			name = SmartTableViewController;
+			sourceTree = "<group>";
+		};
+		C62233171573CC2000780A85 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C622331B1573CC4E00780A85 /* State */,
+				C622331A1573CC4A00780A85 /* Push */,
+				C62233191573CC4500780A85 /* Edit */,
+				C62233181573CC4000780A85 /* Text */,
+				C62233021573CB7D00780A85 /* AbstractSmartTableViewCell.h */,
+				C62233031573CB7D00780A85 /* AbstractSmartTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C62233181573CC4000780A85 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				C62233151573CC1A00780A85 /* TextTableViewCell.h */,
+				C62233141573CC1A00780A85 /* TextTableViewCell.m */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		C62233191573CC4500780A85 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				C62233081573CBB100780A85 /* EditTableViewCell.h */,
+				C622330A1573CBB100780A85 /* EditTableViewCell.m */,
+				C62233091573CBB100780A85 /* FlexibleEditTableViewCell.h */,
+				C622330B1573CBB100780A85 /* FlexibleEditTableViewCell.m */,
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		C622331A1573CC4A00780A85 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				C62233051573CB8C00780A85 /* PushTableViewCell.h */,
+				C62233061573CB8C00780A85 /* PushTableViewCell.m */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		C622331B1573CC4E00780A85 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				C622331D1573CC8600780A85 /* AbstractStateTableViewCell.h */,
+				C622331C1573CC8600780A85 /* AbstractStateTableViewCell.m */,
+				C62233121573CC0000780A85 /* SwitchTableViewCell.h */,
+				C62233111573CC0000780A85 /* SwitchTableViewCell.m */,
+				C622330F1573CBC400780A85 /* CheckTableViewCell.h */,
+				C622330E1573CBC400780A85 /* CheckTableViewCell.m */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		C622331F1573CF8700780A85 /* Sample Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Sample Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +270,16 @@
 				C62232E81573CAF300780A85 /* main.m in Sources */,
 				C62232EC1573CAF300780A85 /* AppDelegate.m in Sources */,
 				C62232EF1573CAF300780A85 /* ViewController.m in Sources */,
+				C62232FE1573CB5700780A85 /* SmartTableViewController.m in Sources */,
+				C62233011573CB6B00780A85 /* TableSectionContainer.m in Sources */,
+				C62233041573CB7D00780A85 /* AbstractSmartTableViewCell.m in Sources */,
+				C62233071573CB8C00780A85 /* PushTableViewCell.m in Sources */,
+				C622330C1573CBB100780A85 /* EditTableViewCell.m in Sources */,
+				C622330D1573CBB100780A85 /* FlexibleEditTableViewCell.m in Sources */,
+				C62233101573CBC400780A85 /* CheckTableViewCell.m in Sources */,
+				C62233131573CC0000780A85 /* SwitchTableViewCell.m in Sources */,
+				C62233161573CC1A00780A85 /* TextTableViewCell.m in Sources */,
+				C622331E1573CC8600780A85 /* AbstractStateTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

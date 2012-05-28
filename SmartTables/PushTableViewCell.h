@@ -1,0 +1,11 @@
+//
+//  PushTableViewCell.h
+//
+//  Created by Alexey Patosin on 11/24/11.
+//
+
+#import <UIKit/UIKit.h>
+#import "AbstractSmartTableViewCell.h"
+
+@interface PushTableViewCell : AbstractSmartTableViewCell
+@end
