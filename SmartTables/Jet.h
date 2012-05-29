@@ -20,10 +20,10 @@ typedef enum{
 } JetType;
 
 @interface Jet : NSObject{
-    JetType type;
-    NSString *serialNumber;
-    BOOL isPilotOnBoard;
-    Pilot *pilot;
+    JetType _type;
+    NSString *_serialNumber;
+    BOOL _isPilotOnBoard;
+    Pilot *_pilot;
 }
 
 @property(nonatomic, assign) JetType type;
@@ -32,5 +32,7 @@ typedef enum{
 @property(nonatomic, retain) Pilot *pilot;
 
 - (BOOL)isPilotAllowedOnBoard;
-
+- (NSString *)jetTypeDesc;
+- (NSString *)jetTypeDescForType:(JetType)type;
+- (NSString *)isPilotOnBoardDesc;
 @end

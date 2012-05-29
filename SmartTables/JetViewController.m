@@ -24,6 +24,19 @@ NSString *pilotOnBoardCellId = @"pilotOnBoardCell";
     _jet = [[Jet alloc] init];
     self.navigationItem.title = @"Aircraft";
     [super viewDidLoad];
+    
+    UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneButtonTapped)];
+    [self.navigationItem setRightBarButtonItem:button];
+    [button release];
+}
+
+- (void)doneButtonTapped{
+    NSString *message = [NSString stringWithFormat:@"Pilot:%@\nJet:%@\nS/n:%@\nPilot on board:%@", 
+                         _jet.pilot.name, [_jet jetTypeDesc], _jet.serialNumber, [_jet isPilotOnBoardDesc]];
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Info" message:message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
 }
 
 - (void)dealloc{
@@ -91,7 +104,14 @@ NSString *pilotOnBoardCellId = @"pilotOnBoardCell";
     }];
     
     [self addNotificationObserver:@"JetTypeChanged" object:_jet usingBlock:^(NSNotification *notification) {
-        
+        NSString *jetTypeDesc = [bself.jet jetTypeDesc];
+        cell.textLabel.text = jetTypeDesc;        
+        if([jetTypeDesc length]){
+            cell.textLabel.textColor = [UIColor grayColor];
+        }
+        else{
+            cell.textLabel.textColor = [UIColor grayColor];
+        }
     } calledBlockImmediately:YES];
     
     return cell;
@@ -99,6 +119,8 @@ NSString *pilotOnBoardCellId = @"pilotOnBoardCell";
 
 - (FlexibleEditTableViewCell *)serialNumberCell{
     FlexibleEditTableViewCell *cell = [FlexibleEditTableViewCell cellWithCellId:serialNumberCellId];
+    
+    __block typeof(self) bself = self;
     
     cell.keyTextLabel.text = @"S/N";
     
@@ -109,6 +131,8 @@ NSString *pilotOnBoardCellId = @"pilotOnBoardCell";
         if([string length] && ![regExPredicate evaluateWithObject:string]){
             res = NO;
         }
+        
+        bself.jet.serialNumber = [cell.valueTextField.text stringByReplacingCharactersInRange:range withString:string];
         
         return res;
     }];
