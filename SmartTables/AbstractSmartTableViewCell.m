@@ -51,6 +51,12 @@ const float DEFAULT_CELL_HEIGHT = 44;
     //child classes could init additional components here
 }
 
+- (void)dealloc{
+    [viewControllerNameForPush release];    
+    
+    [super dealloc];
+}
+
 #pragma mark - getters and setters
 
 //calledBlock doesn't use @synthesize or @dynamic, because it's atomic property

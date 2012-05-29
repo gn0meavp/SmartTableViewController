@@ -12,6 +12,7 @@
 #import "PushTableViewCell.h"
 #import "EditTableViewCell.h"
 #import "TextTableViewCell.h"
+#import "FlexibleEditTableViewCell.h"
 
 @interface SmartTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>{
     NSMutableArray *sections;

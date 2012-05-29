@@ -13,8 +13,6 @@
 		C62232E61573CAF300780A85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C62232E41573CAF300780A85 /* InfoPlist.strings */; };
 		C62232E81573CAF300780A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232E71573CAF300780A85 /* main.m */; };
 		C62232EC1573CAF300780A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232EB1573CAF300780A85 /* AppDelegate.m */; };
-		C62232EF1573CAF300780A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232EE1573CAF300780A85 /* ViewController.m */; };
-		C62232F21573CAF300780A85 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C62232F01573CAF300780A85 /* ViewController.xib */; };
 		C62232FE1573CB5700780A85 /* SmartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62232FD1573CB5700780A85 /* SmartTableViewController.m */; };
 		C62233011573CB6B00780A85 /* TableSectionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233001573CB6B00780A85 /* TableSectionContainer.m */; };
 		C62233041573CB7D00780A85 /* AbstractSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233031573CB7D00780A85 /* AbstractSmartTableViewCell.m */; };
@@ -25,6 +23,11 @@
 		C62233131573CC0000780A85 /* SwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233111573CC0000780A85 /* SwitchTableViewCell.m */; };
 		C62233161573CC1A00780A85 /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233141573CC1A00780A85 /* TextTableViewCell.m */; };
 		C622331E1573CC8600780A85 /* AbstractStateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C622331C1573CC8600780A85 /* AbstractStateTableViewCell.m */; };
+		C62233221573D00A00780A85 /* Jet.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233211573D00A00780A85 /* Jet.m */; };
+		C62233251573D01900780A85 /* Pilot.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233241573D01900780A85 /* Pilot.m */; };
+		C62233281573D41100780A85 /* JetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62233271573D40F00780A85 /* JetViewController.m */; };
+		C622332B1573D41E00780A85 /* JetTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C622332A1573D41D00780A85 /* JetTypeViewController.m */; };
+		C622332E1573D42D00780A85 /* PilotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C622332D1573D42C00780A85 /* PilotViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +41,6 @@
 		C62232E91573CAF300780A85 /* SmartTables-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartTables-Prefix.pch"; sourceTree = "<group>"; };
 		C62232EA1573CAF300780A85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C62232EB1573CAF300780A85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C62232ED1573CAF300780A85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C62232EE1573CAF300780A85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C62232F11573CAF300780A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		C62232FC1573CB5700780A85 /* SmartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartTableViewController.h; sourceTree = "<group>"; };
 		C62232FD1573CB5700780A85 /* SmartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartTableViewController.m; sourceTree = "<group>"; };
 		C62232FF1573CB6B00780A85 /* TableSectionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSectionContainer.h; sourceTree = "<group>"; };
@@ -61,6 +61,16 @@
 		C62233151573CC1A00780A85 /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
 		C622331C1573CC8600780A85 /* AbstractStateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractStateTableViewCell.m; sourceTree = "<group>"; };
 		C622331D1573CC8600780A85 /* AbstractStateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractStateTableViewCell.h; sourceTree = "<group>"; };
+		C62233201573D00A00780A85 /* Jet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jet.h; sourceTree = "<group>"; };
+		C62233211573D00A00780A85 /* Jet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jet.m; sourceTree = "<group>"; };
+		C62233231573D01900780A85 /* Pilot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pilot.h; sourceTree = "<group>"; };
+		C62233241573D01900780A85 /* Pilot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pilot.m; sourceTree = "<group>"; };
+		C62233261573D40E00780A85 /* JetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JetViewController.h; sourceTree = "<group>"; };
+		C62233271573D40F00780A85 /* JetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JetViewController.m; sourceTree = "<group>"; };
+		C62233291573D41C00780A85 /* JetTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JetTypeViewController.h; sourceTree = "<group>"; };
+		C622332A1573D41D00780A85 /* JetTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JetTypeViewController.m; sourceTree = "<group>"; };
+		C622332C1573D42B00780A85 /* PilotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilotViewController.h; sourceTree = "<group>"; };
+		C622332D1573D42C00780A85 /* PilotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PilotViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +121,12 @@
 				C62232F81573CB0100780A85 /* SmartTableViewController */,
 				C62232EA1573CAF300780A85 /* AppDelegate.h */,
 				C62232EB1573CAF300780A85 /* AppDelegate.m */,
-				C62232ED1573CAF300780A85 /* ViewController.h */,
-				C62232EE1573CAF300780A85 /* ViewController.m */,
-				C62232F01573CAF300780A85 /* ViewController.xib */,
+				C62233261573D40E00780A85 /* JetViewController.h */,
+				C62233271573D40F00780A85 /* JetViewController.m */,
+				C62233291573D41C00780A85 /* JetTypeViewController.h */,
+				C622332A1573D41D00780A85 /* JetTypeViewController.m */,
+				C622332C1573D42B00780A85 /* PilotViewController.h */,
+				C622332D1573D42C00780A85 /* PilotViewController.m */,
 				C62232E21573CAF300780A85 /* Supporting Files */,
 			);
 			path = SmartTables;
@@ -200,6 +213,10 @@
 		C622331F1573CF8700780A85 /* Sample Model */ = {
 			isa = PBXGroup;
 			children = (
+				C62233201573D00A00780A85 /* Jet.h */,
+				C62233211573D00A00780A85 /* Jet.m */,
+				C62233231573D01900780A85 /* Pilot.h */,
+				C62233241573D01900780A85 /* Pilot.m */,
 			);
 			name = "Sample Model";
 			sourceTree = "<group>";
@@ -256,7 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C62232E61573CAF300780A85 /* InfoPlist.strings in Resources */,
-				C62232F21573CAF300780A85 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +285,6 @@
 			files = (
 				C62232E81573CAF300780A85 /* main.m in Sources */,
 				C62232EC1573CAF300780A85 /* AppDelegate.m in Sources */,
-				C62232EF1573CAF300780A85 /* ViewController.m in Sources */,
 				C62232FE1573CB5700780A85 /* SmartTableViewController.m in Sources */,
 				C62233011573CB6B00780A85 /* TableSectionContainer.m in Sources */,
 				C62233041573CB7D00780A85 /* AbstractSmartTableViewCell.m in Sources */,
@@ -280,6 +295,11 @@
 				C62233131573CC0000780A85 /* SwitchTableViewCell.m in Sources */,
 				C62233161573CC1A00780A85 /* TextTableViewCell.m in Sources */,
 				C622331E1573CC8600780A85 /* AbstractStateTableViewCell.m in Sources */,
+				C62233221573D00A00780A85 /* Jet.m in Sources */,
+				C62233251573D01900780A85 /* Pilot.m in Sources */,
+				C62233281573D41100780A85 /* JetViewController.m in Sources */,
+				C622332B1573D41E00780A85 /* JetTypeViewController.m in Sources */,
+				C622332E1573D42D00780A85 /* PilotViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,14 +312,6 @@
 				C62232E51573CAF300780A85 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C62232F01573CAF300780A85 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C62232F11573CAF300780A85 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

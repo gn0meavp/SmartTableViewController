@@ -65,4 +65,14 @@ CGFloat const FOOTER_VIEW_HEIGHT = 25.0;
     return cell;
 }
 
+- (void)dealloc{
+    [cells release];
+    [headerTitle release];
+    [footerTitle release];
+    [headerView release];
+    [footerView release];
+    [sectionIdentifier release];
+    
+    [super dealloc];
+}
 @end

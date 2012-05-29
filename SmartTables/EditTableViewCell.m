@@ -25,7 +25,6 @@
     _valueTextField = [[UITextField alloc]initWithFrame:frame];
     _valueTextField.font = [UIFont systemFontOfSize:[UIFont systemFontSize]];
     _valueTextField.textColor = [UIColor darkGrayColor];
-    _valueTextField.text = @"asdf";
     _valueTextField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     _valueTextField.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
     [_valueTextField setDelegate:self];

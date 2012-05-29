@@ -49,6 +49,7 @@
 - (void) dealloc{   
     [self removeNotificationObservers];
     [_notifications release];
+    [sections release];
     
     [super dealloc];
 }
