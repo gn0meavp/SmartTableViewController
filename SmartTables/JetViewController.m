@@ -137,6 +137,11 @@ NSString *pilotOnBoardCellId = @"pilotOnBoardCell";
         return res;
     }];
     
+    [cell setTextFieldShouldReturnBlock:^{
+        [cell.valueTextField resignFirstResponder];
+        return YES;
+    }];
+    
     return cell;
 }
 
