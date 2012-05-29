@@ -1,7 +1,7 @@
 //
 //  AbstractSmartTableViewCell.h
 //
-//  Created by Alexey Patosin on 03.12.11.
+//  Created by Alexey Patosin (alexey@patosin.ru) on 03.12.11.
 //
 
 #import "AbstractSmartTableViewCell.h"

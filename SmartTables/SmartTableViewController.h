@@ -1,7 +1,7 @@
 //
 //  SmartTableViewController.h
 //
-//  Created by Alexey Patosin on 24/11/11.
+//  Created by Alexey Patosin (alexey@patosin.ru) on 24/11/11.
 //
 
 #import <Foundation/Foundation.h>

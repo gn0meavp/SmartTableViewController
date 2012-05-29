@@ -1,7 +1,7 @@
 //
 //  FlexibleEditTableViewCell.h
 //
-//  Created by Alexey Patosin on 12/12/11.
+//  Created by Alexey Patosin (alexey@patosin.ru) on 12/12/11.
 //
 
 #import "EditTableViewCell.h"

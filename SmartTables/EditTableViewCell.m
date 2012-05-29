@@ -1,7 +1,7 @@
 //
 //  EditTableViewCell.m
 //
-//  Created by Alexey Patosin on 21.09.11.
+//  Created by Alexey Patosin (alexey@patosin.ru) on 21.09.11.
 //
 
 #import "EditTableViewCell.h"

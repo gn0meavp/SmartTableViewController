@@ -2,8 +2,7 @@
 //  JetViewController.m
 //  SmartTables
 //
-//  Created by Alexey Patosin on 5/28/12.
-//  Copyright (c) 2012 Yota Labs LLC, Russia. All rights reserved.
+//  Created by Alexey Patosin (alexey@patosin.ru) on 5/28/12.
 //
 
 #import "JetViewController.h"
@@ -64,7 +63,7 @@ NSString *pilotOnBoardCellId = @"pilotOnBoardCell";
         AbstractSmartTableViewCell *newCell = [self pilotOnBoardCell];        
         [self insertCell:newCell inSection:jetSection atIndex:[jetSection.cells count]];    
     }
-    else if(oldCell){
+    else if(![_jet isPilotAllowedOnBoard] && oldCell){
         [self removeCell:oldCell inSection:jetSection];
     }
 }
@@ -167,7 +166,7 @@ NSString *pilotOnBoardCellId = @"pilotOnBoardCell";
     UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)] autorelease];
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, 200, 20)];
     [label setFont:[UIFont systemFontOfSize:15]];
-    [label setTextColor:[UIColor redColor]];
+    [label setTextColor:[UIColor grayColor]];
     [label setText:@"Pilot must have a name!"];
     [view addSubview:label];
     [view setBackgroundColor:[UIColor clearColor]];

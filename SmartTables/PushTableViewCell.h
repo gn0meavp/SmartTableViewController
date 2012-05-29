@@ -1,7 +1,7 @@
 //
 //  PushTableViewCell.h
 //
-//  Created by Alexey Patosin on 11/24/11.
+//  Created by Alexey Patosin (alexey@patosin.ru) on 11/24/11.
 //
 
 #import <UIKit/UIKit.h>
